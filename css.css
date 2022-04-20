@@ -24,7 +24,7 @@
 
 td{
 	font-family: BlinkMacSystemFont,-apple-system,Segoe\ UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira\ Sans,Droid\ Sans,Helvetica\ Neue,Helvetica,Arial,sans-serif;
-
+	font-size: 20px;
 	padding-right: 25px;
 	padding-left: 25px;
 	height: 100%;
@@ -60,13 +60,12 @@ a:hover, a:active {
 	margin: auto;
 	border-width:2px;	
 	text-align: center;	
-	margin-right: 175px;
-	margin-left: 175px;
+	
 	height: 100px;
 	line-height: 50px;	
 	font-style: italic;
 	border-radius: 100px;
-	
+	width: 85%;
 	
 }
 .a2{ 
@@ -76,15 +75,14 @@ a:hover, a:active {
 	margin: auto;
 	margin-top: 25px;
 	text-align: center;
-	margin-right: 175px;
-	margin-left: 175px;
+	width: 85%;
 	padding-bottom: 50px;
 	padding-top: 25px;
 	padding-right: 25px;
 	padding-left: 25px;
 	font-style: italic;
 	border-radius: 10px;
-	font-size: 25px;
+	font-size: 30px;
 }
 
 
