@@ -131,3 +131,129 @@ b{
 	float: left;
 	padding:0 2% 0 2%;
 }
+
+* {
+  transition: all 0.3s ease;
+}
+
+form { 
+margin: 0 auto; 
+width:50%;
+}
+
+.darkBox {
+  background: whitesmoke;
+  padding: 5% 20% 5% 20%;
+}
+
+.smBox {
+  background: #974D97;
+  width: 100%;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 5px;
+  border: 0px;
+  transition: 0.2s;
+  caret-color: #FFF;
+  color: #FFF;
+}
+
+.smBox:focus {
+  outline: none;
+  background: purple;
+  border-color: #4c5358;
+  box-shadow: 0 0 20px #974D97;
+}
+
+::placeholder {
+    color: #AEAFAF;
+    opacity: 1;
+}
+
+.bigBox {
+  min-height: 150px;
+  padding-bottom: 20%;
+}
+
+.bigTitle {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button {
+  position: relative;
+  transform: translateY(10%);
+  display: block;
+  text-transform: none;
+  text-decoration: none;
+  
+  border: 2px solid rgba(235, 235, 235, 1);
+  border-radius: 12px;
+  padding: 1em 2em;
+  overflow: hidden;
+  color: purple;
+  font-weight: 600;
+  font-family: sans-serif;
+  z-index: 0;
+  backface-visibility: hidden;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+button:hover {
+  transition: all 0.3s ease-out;
+  color: white;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.btn-in::before {
+  transform: scale(5);
+  border-radius: 100px;
+  transition: all 0.25s ease-out;
+
+}
+button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: scale(0,0.5);
+  background: purple;
+  border-radius: 100%;
+  overflow: hidden;
+  z-index: -1;
+  
+}
+button:hover::before {
+  transform: scale(2,4);
+  transition: all 0.25s ease-out; 
+}
+
+@media screen and (max-width: 1200px) {
+ 
+form { 
+margin: 0 auto; 
+width: 60%;
+}
+.darkBox {
+  background: whitesmoke;
+  padding: 5% 5% 5% 5%;
+}
+}
+@media screen and (max-width: 650px) {
+
+  form { 
+margin: 0 auto; 
+width: 100%;
+}
+.darkBox {
+  background: #373d42;
+  padding: 5%;
+}
+}
