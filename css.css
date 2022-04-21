@@ -59,7 +59,7 @@ a:hover, a:active {
 	clear: both;
 	margin: auto;
 	margin-top: 25px;
-	text-align: center;
+	text-align: justify;
 	width: 95%;
 	padding-bottom: 50px;
 	padding-top: 25px;
@@ -126,12 +126,12 @@ margin: 0 auto;
 width:50%;
 }
 
-.darkBox {
+.ktu {
   background: whitesmoke;
   padding: 5% 20% 5% 20%;
 }
 
-.smBox {
+.kutu {
   background: #974D97;
   width: 100%;
   border-radius: 8px;
@@ -143,7 +143,7 @@ width:50%;
   color: #FFF;
 }
 
-.smBox:focus {
+.kutu:focus {
   outline: none;
   background: purple;
   border-color: #4c5358;
@@ -155,17 +155,11 @@ width:50%;
     opacity: 1;
 }
 
-.bigBox {
+.msj {
   min-height: 150px;
   padding-bottom: 20%;
 }
 
-.bigTitle {
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-}
 
 button {
   position: relative;
@@ -226,7 +220,7 @@ form {
 margin: 0 auto; 
 width: 60%;
 }
-.darkBox {
+.ktu {
   background: whitesmoke;
   padding: 5% 5% 5% 5%;
 }
@@ -237,7 +231,7 @@ width: 60%;
 margin: 0 auto; 
 width: 100%;
 }
-.darkBox {
+.ktu {
   background: whitesmoke;
   padding: 5%;
 }
@@ -264,6 +258,7 @@ a {
 
 }
 
+
 nav {
   display: flex;
   justify-content: center;
@@ -279,26 +274,26 @@ nav {
   font-family: sans-serif;
 
 }
-#menu-check {
+#navb {
     display:none;
 }
-.menu-links {
+.lnk {
   display:none;
   position: absolute;
   background: whitesmoke;  
   justify-content: center;
-  right: 1rem;
+  right: 16px;
   top: 120%;
   list-style-type: none;
   text-align: center;
 
 }
-.menu-links li {
-  padding: 0.5rem 1rem;
+.lnk li {
+  padding: 8px 16px;
   
 
 }
-#menu-check:checked + .menu-links {
+#navb:checked + .lnk {
   display:block;
 
 }
@@ -307,11 +302,13 @@ nav {
   label {
     display: none;
 
+
   }
-  .menu-links {
+  .lnk {
     display: flex;
     position: inherit;
     background: none;
+
 
 
   }

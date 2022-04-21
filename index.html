@@ -8,19 +8,11 @@
 </head>
 <body style="background-color: whitesmoke;">
 	
-		
-
-	
-
-
 	<nav>
-    <div class="logo">
-    
-    </div>
-    <div class="ana-menu">
-        <label for="menu-check"><div style="line-height: 50px;border:1px solid purple ; border-radius: 5px;width: 150px ;height: 50px; text-align: center;padding: auto;">MENU</div></label>
-        <input type="checkbox"id="menu-check">
-        <ul class="menu-links">
+    <div>
+        <label for="navb"><div style="line-height: 50px;border:1px solid purple ; border-radius: 5px;width: 150px ;height: 50px; text-align: center;padding: auto;">MENÜ</div></label>
+        <input type="checkbox"id="navb">
+        <ul class="lnk">
           <li><a href="#kb">Kısaca bilgiler</a></li>
           <li><a href="#hak">Hakkında</a></li>
           <li><a href="#ft">Fotoğraflar</a></li>
@@ -36,7 +28,7 @@
 			<div class="a1" ><h1><strong>FİNLANDİYA</strong></h1></div><br><br>
 			<div class="a2">
 
-				<div  id="kb" style="padding: 20px;width: 100%;margin: auto;border: 1px solid purple;border-radius: 10px;font-size: 20px;">
+				<div  id="kb" style="text-align:center ;padding: 20px;width: 100%;margin: auto;border: 1px solid purple;border-radius: 10px;font-size: 20px;">
 					
 					<ul>
 						<li><strong>Tam ismi :</strong></li>
@@ -98,16 +90,14 @@ Eşitsizliği Raporu'nda da en eşit ikinci ülke olmuştur.<ins> Ayrıca 2018, 
 <br>
 
 
-<h2>Fotoğraflar</h2><br><br>
+<h2 style="text-align: center;">Fotoğraflar</h2><br><br>
 
-<div class="res" style="max-width: 900px; height: 500px; object-fit: fill;"></div><br>
+<div class="res" style="max-width: 900px; height: 500px; "></div><br>
 
-<div class="ser" style="max-width: 900px; height: 500px; object-fit: fill;"></div>
+<div class="ser" style="max-width: 900px; height: 500px;"></div>
 
 <br id="fc">
-<br>
-<br>
-<br>
+<br><br><br>
 <h2 style="text-align: center;">fiziki yapısı ve coğrafi bilgiler</h2><br><br>
 
 Finlandiya, granit özelliği taşıyan, dalgalı, geniş buzulların buzultaş sıraları meydana getirdiği dördüncü zamanda meydana geldiği zannolunan oldukça kuvvetli yontulmuş ovalardan meydana gelmiştir.
@@ -119,7 +109,7 @@ Salpausselka, ülkenin güney ve güneybatısında kum ve çakılla karışık b
 
 <br><br>
 
-<h2>iklimi</h2>
+<h2 style="text-align: center;">iklimi</h2>
 
 <br><br>
 
@@ -127,7 +117,7 @@ Finlandiya yüksek enlemlerde olması dolayısıyla sert bir iklime sahiptir. Bu
 
 <br><br>
 
-<h2>tabii kaynaklar</h2>
+<h2 style="text-align: center;">tabii kaynaklar</h2>
 
 <br><br>
 
@@ -137,19 +127,14 @@ Madenleri bakımından genel bir zenginlik göze çarpmaz. Ülkede en çok bulun
 
 <br><br>
 
-<h2 id="il">iletişim</h2>
+<h1 id="il" style="text-align: center;">iletişim</h1>
+<div class="ktu">
 
-
-
-
-
-<div class="darkBox">
-  <p class="bigTitle">iletişim</p>
   <form>
-      <input class="smBox" type="text" name="firstname" placeholder="Ad Soyad giriniz">
-      <input class="smBox" type="text" name="firstname" placeholder="Email Adresinizi giriniz">
-    <input class="smBox" type="date" name="firstname" placeholder="">
-    <textarea class="smBox bigBox"name="text" rows="1" cols="1" wrap="soft" placeholder="Mesajınızı yazınız :"></textarea>
+      <input class="kutu" type="text" placeholder="Ad Soyad giriniz :">
+      <input class="kutu" type="text" placeholder="Email Adresinizi giriniz :">
+    <input class="kutu" type="number" min="10" max="100" step="5" placeholder="Yaşınızı giriiniz :">
+    <textarea class="kutu msj" rows="1" cols="1" wrap="soft" placeholder="Mesajınızı yazınız :"></textarea>
     <button type="submit">Gönder</button>
   </form>
   </div>
